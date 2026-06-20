@@ -1,0 +1,8 @@
+.popular_div_1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 6vh;
+
+    width: 100%;
+    margin: 1vh;
+}

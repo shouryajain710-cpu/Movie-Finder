@@ -1,0 +1,33 @@
+.homepage_div_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+
+    margin: 3vh;
+
+}
+.homepage_div_1 input{
+    width: 50vh;
+    height: 6vh;
+    
+    border: none;
+    border-radius: 12px;
+    padding-left: 6px;
+
+
+}
+.homepage_div_1 button{
+    
+    padding-left: 4px;
+    padding-right: 4px;
+
+    background: black;
+    color: white;
+    border: none;
+
+
+}
+.homepage_div_1 button:hover{
+    border-bottom: 1px solid white;
+}

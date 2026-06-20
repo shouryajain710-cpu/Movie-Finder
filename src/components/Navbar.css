@@ -1,0 +1,35 @@
+.Navbar_div_1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 20px 10px;
+    border: 2px solid white;
+    border-radius: 12px;
+
+    margin: 5vh;
+
+    background-color: rgb(34, 30, 30);
+}
+.Navbar_div_1 h1{
+    flex: 2;
+}
+.Navbar_div_2{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    height: 30px;
+    width: auto;
+    
+}
+.Navbar_div_2 a{
+    text-decoration: none;
+    color: white;
+}
+.Navbar_div_2 a:hover{
+    border-bottom: 1px solid white;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
